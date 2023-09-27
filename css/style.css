@@ -7,3 +7,12 @@ body {
     url(Снимок экрана 2023-09-27 214122.png)
       center/cover fixed;
 }
+a{
+color: red;
+}
+
+a:hover{
+text-decoration: underline;
+  font-weight: 700;
+cursor: pointer;
+}
