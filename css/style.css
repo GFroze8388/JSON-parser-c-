@@ -1,8 +1,8 @@
 body {
   padding: 20px;
   background: linear-gradient(
-      rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
     ),
     url(Снимок экрана 2023-09-27 214122.png)
       center/cover fixed;
