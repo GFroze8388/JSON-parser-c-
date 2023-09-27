@@ -1,1 +1,9 @@
-
+body {
+  padding: 20px;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url(https://wp-s.ru/wallpapers/13/0/424039340762658/bitva-vojsk-na-konyax-v-starinnye-vremena.jpg)
+      center/cover fixed;
+}
