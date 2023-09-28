@@ -1,8 +1,8 @@
 body {
   padding: 20px;
   background: linear-gradient(
-      rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)
+      rgba(255, 255, 255, 0.6,
+      rgba(255, 255, 255, 0.6)
     ),
     url(https://i.ytimg.com/vi/YN5UjhYubFU/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGUgYChMMA8=&amp;rs=AOn4CLDbbX62s3h19aonKwEH3uRKGOeGag)
       center/cover fixed;
