@@ -1,6 +1,6 @@
 <body>
   <h2>GoUp</h2>
-  <a class = "s" href = "Вот https://drive.google.com/file/d/114LwYEAcDZpqmAd1CK2BEy0HgG7pU3oX/view?usp=drivesdk">Скачать</a>
+  <button><a class = "s" href = "https://drive.google.com/file/d/114LwYEAcDZpqmAd1CK2BEy0HgG7pU3oX/view?usp=drivesdk">Скачать</a></button>
 </body>
 
 
@@ -8,7 +8,7 @@
   body {
   padding: 20px;
   background: linear-gradient(
-      rgba(255, 255, 255, 0.6,
+      rgba(255, 255, 255, 0.6,)
       rgba(255, 255, 255, 0.6)
     ),
     url(https://i.ytimg.com/vi/YN5UjhYubFU/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGUgYChMMA8=&amp;rs=AOn4CLDbbX62s3h19aonKwEH3uRKGOeGag)
@@ -17,12 +17,6 @@
 
 a{
 color: red;
-}
-
-a:hover{
-text-decoration: underline;
-  font-weight: 700;
-cursor: pointer;
 }
 
 img{
@@ -57,4 +51,22 @@ h3{
 h4{
   font-size: 190%;
   color: purple;
+}
+button {
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  background: rgba(32, 216, 225, 0.7);
+  border-radius: 50px;
+  font-weight: 700;
+  color: red;
+  border: none;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.8s;
+}
+button:hover {
+  background: rgba(31, 172, 179, 0.85);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+  transform: scale(0.98);
+}
 </style>
