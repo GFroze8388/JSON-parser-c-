@@ -1,7 +1,15 @@
 <body>
   <h2>GoUp</h2>
-  <p class = "ta"><img src="frame_00001.png" alt = "GoUp" wedth = "1000" height = "400" class = "s" id = "icon"></p>
+  <p class = "ta"><img src="frame_00001.png" alt = "GoUp" wedth = "1000" height = "400" class = "s" id = "icon" onmouseover="info()" onmouseout="delinfo()"></p>
   <button class = "s" id = "b1"><a href = "https://drive.google.com/file/d/114LwYEAcDZpqmAd1CK2BEy0HgG7pU3oX/view?usp=drivesdk">Скачать</a></button>
+  <p id = "info" class = "s">
+    Goup - это игра, жанра аркада. <br>
+    Сверху на вас падают разные объекты: коробка, амогус и т.д. <br>
+    С низу начинает работать лазер, который испепеляет объекты и игрока. <br>
+    Прыгай как можно выше и не умри от лазера! <br>
+    Также в игре присутствуют скины и способности. <br>
+    Также ты можешь повлиять на игру, отправив идею, спрайт нам в дс. <br>
+  </p>
 </body>
 
 
@@ -89,4 +97,22 @@ button:hover {
       rgba(255, 255, 255, 0.6)
     );
 }
+
+#info{
+  visibility: hidden;
+  font-size: 15px;
+  left: 15;
+  color: red;
+  font-weight: bold;
+}
+
 </style>
+
+<script>
+  function info(){
+    document.getElementById("info").style.visibility = "visible";
+  }
+  function delinfo(){
+    document.getElementById("info").style.visibility = "hidden";
+  }
+</script>
