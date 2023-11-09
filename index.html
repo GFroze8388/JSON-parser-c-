@@ -100,9 +100,6 @@ button:hover {
   </style>
 
   <script>
-    canvas.addEventListener("mousemove", function(event) {
-  moveup(event);
-});
     const canvas = document.getElementById("gameCanvas");
     const ctx = canvas.getContext("2d");
 
@@ -112,14 +109,6 @@ button:hover {
 
     function delinfo() {
       document.getElementById("info").style.visibility = "hidden";
-    }
-
-    function moveup(event) {
-      const canvasRect = canvas.getBoundingClientRect();
-      const x = event.clientX - canvasRect.left;
-      const y = event.clientY - canvasRect.top;
-      document.getElementById("info").style.top = y + "px";
-      document.getElementById("info").style.left = x + 300 + "px";
     }
 
     canvas.addEventListener("mousemove", moveup);
