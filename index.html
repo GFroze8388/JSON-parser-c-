@@ -100,6 +100,9 @@ button:hover {
   </style>
 
   <script>
+    canvas.addEventListener("mousemove", function(event) {
+  moveup(event);
+});
     const canvas = document.getElementById("gameCanvas");
     const ctx = canvas.getContext("2d");
 
