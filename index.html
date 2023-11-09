@@ -114,7 +114,7 @@ button:hover {
       const canvasRect = canvas.getBoundingClientRect();
       const x = event.clientX - canvasRect.left;
       const y = event.clientY - canvasRect.top;
-      document.getElementById("info").style.top = y - 150 + "px";
+      document.getElementById("info").style.top = y + "px";
     }
 
     canvas.addEventListener("mousemove", moveup);
