@@ -112,6 +112,7 @@ button:hover {
     }
 
     function moveup(event) {
+      const canvas = document.getElementById("gameCanvas");
       const canvasRect = canvas.getBoundingClientRect();
       const x = event.clientX - canvasRect.left;
       const y = event.clientY - canvasRect.top;
