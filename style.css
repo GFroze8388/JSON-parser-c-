@@ -1,0 +1,46 @@
+body{
+    padding: 20px;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.6),
+        rgba(255, 255, 255, 0.6)
+    ),
+    url(images/background.jpg) center/cover fixed;
+}
+h2{
+    color: red;
+    font-size: 1.5rem;
+}
+button {
+    align-self: center;
+    width: 40rem;
+    height: 3rem;
+    cursor: pointer;
+    background: rgb(32, 150, 225);
+    border-radius: 50px;
+    font-weight: 700;
+    color: red;
+    border: none;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    transition: 0.8s;
+  }
+  button:hover {
+    background: rgba(31, 172, 179, 0.85);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+    transform: scale(0.98);
+  }
+p{
+    font-size: 1rem;
+}
+h1{
+    font-size: 3rem;
+    color: darkgreen;
+    background-color: brown;
+    text-align: center;
+}
+img{
+    width: 25rem;
+    height: 25rem;
+}
+b{
+    color: red
+}
