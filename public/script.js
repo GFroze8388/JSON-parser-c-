@@ -44,5 +44,5 @@ function changeColor() {
     document.getElementById("h5").style.color = "rgb(" + red + ", " + green + ", " + blue + ")";
 }
 function click(){
-  window.location.href = 'quest.html';
+  window.location.href = 'public/quest.html';
 }
