@@ -43,7 +43,6 @@ function changeColor() {
     document.getElementById("h4").style.color = "rgb(" + red + ", " + green + ", " + blue + ")";
     document.getElementById("h5").style.color = "rgb(" + red + ", " + green + ", " + blue + ")";
 }
-const button = document.querySelector('button');
-button.addEventListener('click', function() {
-  window.location.href = 'public/quest.html';
-});
+function click(){
+  window.location.href = 'quest.html';
+}
