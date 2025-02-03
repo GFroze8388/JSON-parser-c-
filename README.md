@@ -1,6 +1,1 @@
-# Moo Duck сайт
-- HTML 5
-- CSS 3
-
-[Перейти]( https://gfroze8388.github.io/Moo-Duck/
-)
+[Download last version](https://github.com/GFroze8388/JSON-parser-c-/blob/main/build/v1.3.0/NET.%20Standart%202.1/jsonparser.dll)
